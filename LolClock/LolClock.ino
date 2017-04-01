@@ -47,7 +47,8 @@ int lds[4][20][2] = {
 #include <Charliplexing.h>
 
 void setup() {
-  LedSign::Init(GRAYSCALE); setupClock();
+  LedSign::Init(GRAYSCALE);
+  setupClock();
 }
 
 void setupClock() {
